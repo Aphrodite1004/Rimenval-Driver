@@ -1,0 +1,268 @@
+<resources>
+
+    <string name="offline">Offline</string>
+    <string name="online">Online</string>
+    <string name="need_location">Habilitar GPS</string>
+    <string name="location_content">Esta aplicación requiere activar el GPS para su ubicación.</string>
+
+    <!-- version and operative system -->
+    <string name="version_app">1.0.0</string>
+    <string name="sistema_operativo">android</string>
+
+    <!--app name-->
+    <string name="app_name">Rimenval Driver</string>
+
+    <!--facebook id-->
+    <string name="facebook_app_id" translatable="false">2000030113588409</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2000030113588409</string>
+
+    <!--google Geo Location api key-->
+    <string name="geoGoogleApi">AIzaSyB_r33kqnaEVtSm8tO6H-L0jBQKgmvnhMg</string>
+
+    <!--service link-->
+    <string name="link" translatable="false">https://app.transporterimenval.com/</string>
+    <string name="servicepath" translatable="false">api/</string>
+    <string name="serviceparcel" translatable="false">parcel_services/</string>
+    <string name="imagepath" translatable="false">uploads/restaurant/</string>
+    <string name="imagepathboy" translatable="false">uploads/deliveryboys/</string>
+    <string name="menupath" translatable="false">uploads/submenus/</string>
+
+    <!--General text-->
+    <string name="intro_app">Entrega de carga pesada inmediata</string>
+    <string name="later_txt">Por favor intente más tarde!</string>
+    <string name="internet_check_error">Por favor revise su conexión a Internet</string>
+    <string name="text_warning">Precaución</string>
+    <string name="colorErrorDialog">#303c44</string>
+    <string name="txt_load_more">Ver Más</string>
+    <string name="loading">cargando</string>
+    <string name="currency">$</string>
+    <string name="ok">OK</string>
+    <string name="address">34, Medisam Square, New York Street, New York</string>
+    <string name="servererror">No se encontraron datos</string>
+    <string name="Quit">Salir</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="statementquit">¿Estás seguro que deseas salir?</string>
+    <string name="txt_gotogps">Diríjete a configuraciones para activar el GPS</string>
+    <string name="txt_gps_error">El GPS está desactivado en tu dispositivo. Te gustaría activarlo?</string>
+    <string name="txt_try_later">Por favor intente nuevamente!</string>
+    <string name="txt_load">Cargando</string>
+
+    <!--<About Us-->
+    <string name="txt_aboutus">Acerca de Nosotros</string>
+    <string name="aboutus_filename">aboutus.html</string>
+
+    <!--<Terms and condition-->
+    <string name="terms_and_conditions">Términos y Condiciones</string>
+    <string name="terms_condition_filename">tnc.html</string>
+
+    <!--<Most Rated Restaurant-->
+    <string name="txt_most_rated_restaurant">Mejor Valorados</string>
+
+    <!--Cart-->
+    <string name="txt_cart">Carrito de Compras</string>
+    <string name="txt_checkout">Finalizar Pedido</string>
+    <string name="norecord">No se encontraron datos</string>
+    <string name="loginmsg">Necesitas iniciar sesión!</string>
+    <string name="BASIC_PRICE">Precio Unitario</string>
+    <string name="QUANTITY">Cantidad</string>
+
+    <!--Category-->
+    <string name="txt_category">Categoria</string>
+    <string name="txt_search">Buscar</string>
+
+    <!--Complete Order-->
+    <string name="order_status">Estado de la Orden</string>
+    <string name="txt_order_no">Orden #</string>
+    <string name="txt_recibo_no">Recibo #</string>
+    <string name="txt_order_amount">Valor de la Orden</string>
+    <string name="txt_delivery_price">Valor de Envío</string>
+    <string name="txt_total_price">Total a Pagar</string>
+    <string name="txt_estimated_delivery_time">Hora estimada de entrega</string>
+    <string name="txt_order_time">Hora de la Orden</string>
+    <string name="txt_complete_order">Actualizar Estado</string>
+
+    <!--Detail Page-->
+    <string name="txt_address">DISTANCIA Y UBICACIÓN</string>
+    <string name="txt_phone_number">NUMERO DE TELÉFONO</string>
+    <string name="txt_timing">HORARIO DE ATENCIÓN</string>
+    <string name="txt_food_type">TIPO DE COMIDA</string>
+    <string name="txt_delivery_time">TIEMPO DE ENTREGA</string>
+    <string name="txt_delivery_type">TIPO DE ENTREGA</string>
+    <string name="txt_menu">MENÚ</string>
+    <string name="share">Compartir!</string>
+    <string name="sharetitle">Compartir Tienda con</string>
+    <string name="more">Más</string>
+    <string name="facebook">Facebook</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="km">km</string>
+
+    <!--Login-->
+    <string name="soy_faster">Soy Faster</string>
+    <string name="login_with_google">Iniciar sesión con Google</string>
+    <string name="login_with_delivery">Iniciar como Repartidor</string>
+    <string name="login_with_facebook">Iniciar sesión con Facebook</string>
+    <string name="txt_new_register">Registrarse</string>
+    <string name="or">O</string>
+    <string name="txt_login">Iniciar Sesión</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_email">Correo Electrónico</string>
+    <string name="err_msg_password">Contraseña Incorrecta</string>
+    <string name="err_msg_name">Nombre de Usuario Incorrecto</string>
+    <string name="err_msg_email">Ingrese un correo válido</string>
+    <string name="err_msg_nombre">Ingrese su nombre</string>
+    <string name="err_msg_apellido">Ingrese su apellido</string>
+    <string name="err_msg_phone">Número de celular Incorrecto</string>
+    <string name="txt_valid_phone_number">Número de celular es correcto</string>
+    <string name="txt_invalid_phonenumber">Número de celular Incorrecto</string>
+    <string name="txt_phone_required">Se requiere el número celular</string>
+    <string name="img_delivery">img_delivery</string>
+    <string name="phone_number">NÚMERO CELULAR</string>
+    <string name="phone_description">Le solicitamos su número celular para que nos comuniquemos con usted mientras le entregamos su pedido. También nos aseguramos de que sus datos estén seguros con nosotros y no haremos un uso indebido de sus datos que no sean el propósito de entrega </string>
+
+    <!--Register-->
+    <string name="txt_take_a_picture">Tomar una foto</string>
+    <string name="txt_select_picture">Seleccionar una foto</string>
+    <string name="hint_phone_number">Número de Celular</string>
+    <string name="hint_email_address">Correo Electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="agree_t_and_c"><![CDATA[Acepto los Términos y Condiciones del servicio]]></string>
+    <string name="hint_full_name">Nombre y Apellido</string>
+    <string name="signup">Registrarme</string>
+    <string name="register">Registro</string>
+
+    <!--MapActivity-->
+    <string name="txt_map">Mapas</string>
+    <string name="txt_more">MÁS</string>
+    <string name="no_internet">Verifique la conexión a Intenet</string>
+    <string name="no_map">Lo sentimos! no se pudo cargar el mapa</string>
+    <string name="no_restaurant">No más Restaurantes</string>
+    <string name="opentill">ABIERTO: cierra a las: \u0020</string>
+    <string name="closetill">CERRADO: abre a las: \u0020</string>
+    <string name="closer">RESTAURANTE CERRADO</string>
+
+    <!--My Order-->
+    <string name="txt_my_orders">Mis Pedidos</string>
+
+    <!--Review-->
+    <string name="txt_review">Reseñas</string>
+    <string name="revlogin">Necesitas iniciar sesión para calificar</string>
+    <string name="review_hint">Por favor escribe sobre tu experiencia personal en este restaurante.</string>
+
+    <!--SettingPage-->
+    <string name="txt_settings">Configuraciones</string>
+    <string name="txt_search_by_radius">Buscar por Radio</string>
+    <string name="txt_distance">Distancia</string>
+    <string name="txt_radius">Radio</string>
+    <string name="txt_current_location">Ciudad actual</string>
+    <string name="action_settings">Configuraciones</string>
+
+    <!--PlaceOrder-->
+    <string name="txt_select_location">Seleccionar ubicación</string>
+    <string name="txt_select_address">Dirección de destino</string>
+    <string name="txt_notes">Referencia de su ubicación</string>
+    <string name="txt_place_order">Enviar Ubicación</string>
+    <string name="notbooked">Por favor intente de nuevo. Su orden no ha sido ingresada.</string>
+    <string name="error_lat_long">Latitud y Longitud no son válidas!</string>
+
+    <!--googleAutoCompleteSearch-->
+    <string name="plese_enter_place">Por favor ingrese el lugar</string>
+
+    <!--Navigation Bar -->
+    <string name="txt_search_restaurent">Buscar Restaurante</string>
+    <string name="txt_search_on_map">Buscar en el Mapa</string>
+    <string name="txt_suggested_restaurent">Mejores Calificados</string>
+    <string name="txt_cusine">Categorías</string>
+    <string name="txt_favourite">Favoritos</string>
+    <string name="txt_share">Compartir</string>
+    <string name="txt_terms_amp_condition"><![CDATA[Términos & Condiciones]]></string>
+    <string name="txt_about_us">Acerca de Nosotros</string>
+    <string name="txt_signout">Cerrar Sesión</string>
+    <string name="txt_signin">Iniciar Sesión</string>
+    <string name="txt_profile">Mi Perfil</string>
+    <string name="txt_notification">Mis Pedidos</string>
+    <string name="drawer_open">abierto</string>
+    <string name="drawer_close">cerrado</string>
+    <string name="txt_work_time">My Work Time</string>
+
+    <!--MainActivity-->
+    <string name="txt_home_header">Inicio</string>
+    <string name="search">Buscar restaurantes y comidas..</string>
+    <string name="noorder">Todavía no ha realidado pedidos!</string>
+
+    <!--Place order-->
+    <string name="confirmorder1">Your order is placed with item</string>
+    <string name="confirmorder2">;El monto total es</string>
+    <string name="txt_description">Descripción=</string>
+    <string name="txt_price">Precio=</string>
+    <string name="txt_quantity">Cantidad=</string>
+    <string name="txt_total">TOTAL</string>
+
+    <!--CompleteOrder Timeline order status-->
+    <string name="timelineo1">Tu pedido ha sido enviado</string>
+    <string name="timelineo2">Tu pedido ha sido aceptado</string>
+    <string name="timelineo3">Tu pedido está en proceso</string>
+    <string name="timelineo4">Tu pedido ha sido enviado con un repartidor</string>
+    <string name="timelineo5">Tu pedido ha sido entregado con éxito.</string>
+
+    <!--Login as delivery-->
+    <string name="delivery_boy_login">Rimenval - Transporte Pesado</string>
+    <string name="email_required">Correo electrónico</string>
+    <string name="phone_required">Número de teléfono celular</string>
+    <string name="passward_required">Contraseña</string>
+    <string name="txt_setPresence">¿Estás activo?</string>
+    <string name="no_order_left">Aún no tiene ninguna entrega pendiente, permanezca en línea y recibirá la entrega pronto.</string>
+    <string name="txt_call_customer">Llamar al Cliente</string>
+    <string name="txt_view_map">Ver en el Mapa</string>
+    <string name="txt_order_history">Mis Órdenes</string>
+    <string name="txt_my_profile">Mi Perfil</string>
+    <string name="txt_delivery_boy">Repartidor</string>
+    <string name="txt_order_specifications">Especificaciones de la Orden</string>
+    <string name="timeline6">Orden ha sido rechazada</string>
+    <string name="cancle">Cancelar</string>
+    <string name="order_complete">Has completado la orden asignada.</string>
+    <string name="allready_given">Ya se ha dado recomendaciones</string>
+    <string name="cart_empty">Tu carrito no tiene órdenes</string>
+    <string name="login">Inicio Sesión Correctamente</string>
+    <string name="user_connect">Usuario está conectado</string>
+    <string name="conti">Continue..</string>
+    <string name="delivery_information">Dirección de Entrega</string>
+    <string name="paymet">Pago</string>
+    <string name="items">Items</string>
+    <string name="order_amount">Monto de la Orden</string>
+    <string name="your_experience">Tu Experiencia</string>
+    <string name="your_rating">TUS RESEÑAS</string>
+    <string name="hint">Por favor escribe sobre tu experiencia personal en este restaurante.</string>
+    <string name="submit">Enviar</string>
+    <string name="no_review">No hay reseñas disponibles</string>
+    <string name="thanks_you">Gracias por tus sugerencias</string>
+    <string name="thanks">Gracias</string>
+    <string name="review">Califique Por favor</string>
+    <string name="need_login_for_review">Necesitas iniciar sesión para calificar</string>
+    <string name="open_till"> ABIERTO: cierra a las: \u0020</string>
+    <string name="close"> CERRADO : abre a las: \u0020</string>
+    <string name="Minute">Minutos</string>
+    <string name="ratings">Posición</string>
+    <string name="_15_reviews">(15 Reseñas)</string>
+    <string name="picked">Tomar el pedido</string>
+    <string name="complete">Entregué los productos</string>
+    <string name="restaurantok">Ya tengo los productos</string>
+    <string name="order_piked_for_delivery">Te has comprometido a entregar el pedido.</string>
+    <string name="select_terms">Acepte los Términos y Condiciones</string>
+    <string name="choose_profile">Elija su foto de perfil</string>
+    <string name="reg">Se ha registrado correctamente</string>
+    <string name="msg">Almacenamiento</string>
+    <string name="mssg">Necesitas permisos para subir la imagen!</string>
+    <string name="please_wait">Por favor espere</string>
+
+    <!--Navigation Bottom Menu-->
+    <string name="menu_work_schedule">Horario de Trabajo</string>
+    <string name="menu_work_reservation">Seleccionar Horario</string>
+
+    <string name="huawei_title">Huawei Permission Request</string>
+    <string name="huawei_text">Allow app to listen to incoming messages</string>
+    <string name="go_to_protected">Go to Protected Apps</string>
+    <string name="SHARED_PREF" translatable="false">APP_SHARED_PREF</string>
+    <string name="PREF_IS_PROTECTED_APPS" translatable="false">PREF_IS_PROTECTED_APPS</string>
+</resources>

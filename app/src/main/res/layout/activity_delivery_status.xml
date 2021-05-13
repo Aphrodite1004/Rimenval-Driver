@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".motorizado.DeliveryStatus">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rel_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rel_header"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/toolbarheight"
+                android:background="@color/toolbarcolor">
+
+                <ImageButton
+                    android:id="@+id/ib_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:tint="@color/white"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_account_circle_black_24dp" />
+
+                <TextView
+                    android:id="@+id/txt_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_toEndOf="@+id/ib_back"
+                    android:text="hola"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/toolbartitle"
+                    tools:ignore="SpUsage" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_header"
+                android:background="@color/toolbarcolor"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+
+                    <driver.transporterimenval.com.utils.RoundedImageView
+                        android:id="@+id/img_user"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/default_circle_img" />
+
+                    <!--<TextView
+                        android:id="@+id/txt_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_user"
+                        android:layout_marginTop="5dp"
+                        android:text=""
+                        android:textColor="@color/res_green"
+                        android:textSize="23dp"
+                        tools:ignore="SpUsage" />-->
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_centerHorizontal="true">
+
+                        <Button
+                            android:id="@+id/btn_deilverb"
+                            style="@style/Delivery_button"
+                            android:layout_width="wrap_content"
+                            android:layout_marginEnd="5dp"
+                            android:text="Ver Perfil"
+                            android:textSize="@dimen/dp_12"
+                            tools:ignore="SpUsage" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_setPresence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_head"
+                android:layout_centerHorizontal="true"
+                android:background="@color/black"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp" >
+
+                <TextView
+                    android:id="@+id/txt_presenceOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="10dp"
+                    android:text="@string/txt_setPresence"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/arial_rounded"
+                    tools:ignore="RelativeOverlap,RtlHardcoded" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/Sw_radius_onoff"
+                    style="@style/SwitchCompatStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/txt_presenceOn"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    tools:ignore="RtlHardcoded" />
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/list_order_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/rel_bottom"
+                android:layout_below="@+id/rl_setPresence"
+                android:layout_marginTop="0dp"
+                android:visibility="visible" />
+            <!--android:layout_marginBottom="-773dp"-->
+
+            <TextView
+                android:id="@+id/list_order_none"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/rel_bottom"
+                android:layout_below="@+id/rl_setPresence"
+                android:gravity="center"
+                android:paddingEnd="25dp"
+                android:paddingStart="25dp"
+                android:text="@string/no_order_left"
+                android:textColor="#000000"
+                android:visibility="gone"/>
+
+            <!--<RelativeLayout
+                android:id="@+id/rel_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorPrimary">
+
+                <Button
+                    android:id="@+id/btn_order_history"
+                    style="@style/Delivery_button"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toStartOf="@+id/divider1"
+                    android:text="Historial"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/large"
+                    tools:ignore="SpUsage" />
+
+                <ImageView
+                    android:id="@+id/divider1"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@color/white" />
+
+                <Button
+                    android:id="@+id/btn_my_profile"
+                    style="@style/Delivery_button"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/divider1"
+                    android:text="Mis Pagos"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/large"
+                    tools:ignore="SpUsage" />
+            </RelativeLayout>-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:background="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:importantForAccessibility="no"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ll_profile"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:orientation="horizontal">
+
+                <driver.transporterimenval.com.utils.RoundedImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/default_circle_img" />
+
+                <RelativeLayout
+                    android:layout_width="270dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/img_profile"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_nameuser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:lines="1"
+                        android:text="nombre"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/txt_perfil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_nameuser"
+                        android:text="Rider"
+                        android:fontFamily="@font/arial"
+                        android:textColor="@color/res_green"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/ll_profile">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_perfil"
+                        style="@style/navLinearLayout">
+
+                        <ImageView
+                            style="@style/navImageView"
+                            android:background="@mipmap/perfil"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_profile"
+                            style="@style/navTextView"
+                            android:text="Mi Perfil" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_work_time"
+                        style="@style/navLinearLayout">
+
+                        <ImageView
+                            style="@style/navImageView"
+                            android:background="@mipmap/schedule" />
+
+                        <TextView
+                            android:id="@+id/txt_work_time"
+                            style="@style/navTextView"
+                            android:text="Horario" />
+
+                    </LinearLayout>
+
+                    <!--<LinearLayout
+                        android:id="@+id/ll_ganacias"
+                        style="@style/navLinearLayout">
+
+                        <ImageView
+                            style="@style/navImageView"
+                            android:background="@mipmap/ganancias"/>
+
+                        <TextView
+                            android:id="@+id/txt_ganacias"
+                            style="@style/navTextView"
+                            android:text="Ganancias" />
+
+                    </LinearLayout>-->
+
+                    <LinearLayout
+                        android:id="@+id/ll_historial"
+                        style="@style/navLinearLayout">
+
+                        <ImageView
+                            style="@style/navImageView"
+                            android:background="@mipmap/carreras"/>
+
+                        <TextView
+                            android:id="@+id/txt_historial"
+                            style="@style/navTextView"
+                            android:text="Carreras Recientes" />
+
+                    </LinearLayout>
+
+                    <!--<LinearLayout
+                        android:id="@+id/ll_mispagos"
+                        style="@style/navLinearLayout">
+
+                        <ImageView
+                            style="@style/navImageView"
+                            android:background="@mipmap/pay" />
+
+                        <TextView
+                            android:id="@+id/txt_mispagos"
+                            style="@style/navTextView"
+                            android:text="Mis Pagos"
+                            android:textColor="#000000" />
+
+                    </LinearLayout>-->
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_share"
+                        style="@style/navLinearLayout">
+
+                        <ImageView
+                            style="@style/navImageView"
+                            android:background="@mipmap/sidebar_share" />
+
+                        <TextView
+                            android:id="@+id/txt_share"
+                            style="@style/navTextView"
+                            android:text="@string/txt_share" />
+
+                    </LinearLayout>
+
+                    <!--<LinearLayout
+                        android:id="@+id/ll_terms"
+                        style="@style/navLinearLayout">
+
+                        <ImageView
+                            style="@style/navImageView"
+                            android:background="@mipmap/sidebar_terms" />
+
+                        <TextView
+                            android:id="@+id/txt_terms"
+                            style="@style/navTextView"
+                            android:text="@string/txt_terms_amp_condition" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_aboutus"
+                        style="@style/navLinearLayout">
+
+                        <ImageView
+                            style="@style/navImageView"
+                            android:background="@mipmap/aboutus" />
+
+                        <TextView
+                            android:id="@+id/txt_aboutus"
+                            style="@style/navTextView"
+                            android:text="@string/txt_about_us" />
+
+                    </LinearLayout>-->
+
+                    <LinearLayout
+                        android:id="@+id/ll_logout"
+                        style="@style/navLinearLayout">
+
+                        <ImageView
+                            style="@style/navImageView"
+                            android:background="@mipmap/logout" />
+
+                        <TextView
+                            android:id="@+id/txt_logout"
+                            style="@style/navTextView"
+                            android:text="@string/txt_signout" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>

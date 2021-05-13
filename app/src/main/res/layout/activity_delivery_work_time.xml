@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".motorizado.DeliveryWorkTime">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rel_header"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/toolbarheight"
+            android:background="@color/toolbarcolor">
+
+            <ImageButton
+                android:id="@+id/ib_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:tint="@color/white"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <!--<androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_bell"
+                android:layout_width="40dp"
+                android:layout_height="37dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/yes_icon"
+                android:paddingBottom="6dp"
+                android:paddingStart="10dp"
+                android:visibility="gone"
+                android:textColor="#FFFFFF" />-->
+
+            <TextView
+                android:id="@+id/txt_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/ib_back"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:text="Mi Horario de Trabajo"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/toolbartitle"
+                tools:ignore="SpUsage" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/rel_header"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rel_image"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp" >
+
+                <ImageView
+                    android:id="@+id/img12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY" />
+
+                <!--<ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:background="@color/colorPrimary" />-->
+
+                <driver.transporterimenval.com.utils.RoundedImageView
+                    android:id="@+id/img_user"
+                    android:layout_width="310dp"
+                    android:layout_height="180dp"
+                    android:background="@drawable/horario"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container" >
+
+            <!-- Main content -->
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/colorPrimary"
+                app:itemIconTint="@color/white"
+                app:itemTextColor="@color/white"
+                app:menu="@menu/bottom_navigation_menu" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

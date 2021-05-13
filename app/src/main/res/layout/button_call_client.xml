@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".motorizado.DeliveryOrderDetail">
+
+    <RelativeLayout
+        android:id="@+id/rel_fourth2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000000">
+
+        <RelativeLayout
+            android:id="@+id/rela_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/divider1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_call"
+                    android:color="#ffffff"/>
+
+                <Button
+                    android:id="@+id/btn_call_client"
+                    style="@style/Delivery_button"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="start|center_vertical"
+                    android:text="@string/txt_call_customer"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/divider1"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@color/white"
+            android:contentDescription="TODO" />
+
+        <RelativeLayout
+            android:id="@+id/rela_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/divider1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_bill" />
+
+                <Button
+                    android:id="@+id/btn_fact"
+                    style="@style/Delivery_button"
+                    android:layout_width="wrap_content"
+                    android:text="Datos para Factura"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

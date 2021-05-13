@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="driver.transporterimenval.com">
+
+    <uses-permission android:name="com.androidbunch.drawroutev2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="m">
+        <activity android:name=".motorizado.MainActivityTracking">
+        </activity>
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!-- <meta-data -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBtA9NFKy55PO2oH37NLUntcmURE24qBC4" />
+        <meta-data
+            android:name="DATABASE"
+            android:value="restaurant.sqlite" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification_icon" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".motorizado.Aboutus"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".motorizado.Termcondition"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".motorizado.Splash"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- facebook settings -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="@string/fb_login_protocol_scheme"
+                    tools:ignore="ManifestResource" />
+            </intent-filter>
+        </activity>
+
+        <!--<provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider2000030113584402____2000030113584402"
+            android:exported="true" />  end -->
+        <!-- setting of firebase -->
+        <service android:name=".utils.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".utils.GPSTracker" />
+        <service
+            android:name="servicios.BubbleHeadService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".utils.GeoLocationService"
+            android:enabled="true"
+            android:stopWithTask="false"/>
+
+        <receiver
+            android:name=".utils.GeoLocationRestartBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped">
+            <!--<intent-filter>
+                <action android:name="repartidor.faster.com.ec.utils.RestartGeoLocation"/>
+            </intent-filter>-->
+        </receiver>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity
+            android:name=".motorizado.LoginAsDelivery"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".motorizado.DeliveryStatus"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" >
+            <intent-filter>
+                <action android:name="repartidor.faster.com.ec.DeliveryStatus_TARGET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".motorizado.DeliveryUserProfile"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" >
+            <intent-filter>
+                <action android:name="repartidor.faster.com.ec.DeliveryUserProfile_TARGET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".motorizado.DeliveryWorkTime"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" >
+            <intent-filter>
+                <action android:name="repartidor.faster.com.ec.DeliveryWorkTime_TARGET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".motorizado.DeliveryPaymentHistory"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" >
+            <intent-filter>
+                <action android:name="repartidor.faster.com.ec.DeliveryPayment_TARGET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".motorizado.DeliveryPaymentDetail"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" >
+            <intent-filter>
+                <action android:name="repartidor.faster.com.ec.DeliveryPaymentDetail_TARGET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".motorizado.DeliveryOrderDetail"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" >
+            <intent-filter>
+                <action android:name="repartidor.faster.com.ec.DeliveryOrderDetail_TARGET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".motorizado.DeliveryOrderHistory"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"/>
+        <activity
+            android:name=".motorizado.DialogActivity"
+            android:theme="@style/Theme.AppCompat.Dialog">
+            <intent-filter>
+                <action android:name="repartidor.faster.com.ec.DialogActivity_TARGET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

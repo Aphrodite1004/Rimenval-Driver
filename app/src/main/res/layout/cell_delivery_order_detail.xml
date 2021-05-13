@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rel_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/medium"
+            android:lines="1"
+            android:text="CARBONARA SPAGHETTI "
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/black"
+            tools:ignore="SpUsage" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="12dp"
+            android:layout_below="@+id/item_name">
+
+            <LinearLayout
+                android:id="@+id/rel_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CANTIDAD"
+                    android:textSize="@dimen/tiny"
+                    android:textColor="@color/darkGrey"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:id="@+id/itemQuantity"
+                    android:textSize="@dimen/medium"
+                    android:textColor="@color/darkGrey"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRECIO TOTAL"
+                    android:textSize="@dimen/tiny"
+                    android:textColor="@color/darkGrey"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/itemPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$40.00"
+                    android:textSize="@dimen/medium"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

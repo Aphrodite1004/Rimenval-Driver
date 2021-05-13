@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twotoasters.jazzylistview:library:1.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1565e367c7fd1d1964d62afc8b4fdf6/jetified-library-1.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1565e367c7fd1d1964d62afc8b4fdf6/jetified-library-1.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1565e367c7fd1d1964d62afc8b4fdf6/jetified-library-1.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twotoasters.jazzylistview/library/1.2.1/ec3532f61e148ae23e361102dc8cd9806defd374/library-1.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twotoasters.jazzylistview/library/1.2.1/d2ddda4fc2f73c511c80a3f86784bfb05b00c32/library-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

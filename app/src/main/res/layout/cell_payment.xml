@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:transitionName="@string/app_name">
+
+    <RelativeLayout
+        android:id="@+id/rel_main"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="#FFFF">
+
+        <driver.transporterimenval.com.utils.RoundedImageView
+            android:id="@+id/img_user"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/rel_middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/img_user">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_orderNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:text="Recibo No 214"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="@dimen/large"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/txt_orderQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:includeFontPadding="false"
+                    android:lines="1"
+                    android:text="3 órdenes"
+                    android:textColor="@color/lightGrey"
+                    android:textSize="@dimen/tiny"
+                    tools:ignore="SpUsage" />
+
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/txt_orderDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fecha Maxima de Pago: 21/08/2018"
+                android:textColor="@color/lightGrey"
+                android:textSize="@dimen/tiny"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/txt_orderAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:text="Monto a pagar $ 200"
+                android:textColor="@color/lightGrey"
+                android:textSize="@dimen/tiny"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/txt_PaymentDates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fecha Maxima de Pago: 21/08/2018"
+                android:textColor="@color/lightGrey"
+                android:textSize="@dimen/tiny"
+                tools:ignore="SpUsage" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

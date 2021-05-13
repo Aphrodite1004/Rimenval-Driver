@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sunshine\\.gradle\\caches\\transforms-2\\files-2.1\\657820b90d7139058647452dd4f83c4f\\jetified-niftydialogeffects-1.0.0\\res\\values-w360dp-v13\\values.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "194",
+                        "endColumns": "45",
+                        "endOffsets": "235"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                }
+            ]
+        }
+    ]
+}

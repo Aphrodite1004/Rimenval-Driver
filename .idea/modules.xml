@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RimenvalDriver.iml" filepath="$PROJECT_DIR$/.idea/modules/RimenvalDriver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RimenvalDriver.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RimenvalDriver.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rangetimepickerdialog/RimenvalDriver.rangetimepickerdialog.iml" filepath="$PROJECT_DIR$/.idea/modules/rangetimepickerdialog/RimenvalDriver.rangetimepickerdialog.iml" />
+    </modules>
+  </component>
+</project>

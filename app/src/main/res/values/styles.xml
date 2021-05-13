@@ -1,0 +1,132 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/Delivery_button</item>
+        <item name="buttonStyle">@style/Delivery_button</item>
+    </style>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize" tools:ignore="SpUsage">18dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="colorAccent">@color/res_green</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#ff9e00</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#00f</item>
+    </style>
+
+
+    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/res_green</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@android:color/background_dark</item>
+        <!--dialog background-->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="DetailRatingbar" parent="@android:style/Widget.RatingBar">
+        <!--<item name="android:progressDrawable">@drawable/food_rating_bar_full</item>-->
+        <item name="android:minHeight">30dip</item>
+        <item name="android:maxHeight">60dip</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="navTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/small</item>
+        <item name="android:background">@mipmap/sidebar_btn_bg</item>
+
+    </style>
+
+    <style name="navLinearLayout">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="navImageView">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+    </style>
+
+    <style name="orderTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/small</item>
+    </style>
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#46bdbf</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+    <style name="SwitchCompatStyle">
+        <item name="thumbTint">@color/switch_color</item>
+        <item name="trackTint">@color/switch_track</item>
+    </style>
+
+    <style name="SwitchCompatStyleSetting">
+        <item name="thumbTint">@color/switch_color_setting</item>
+        <item name="trackTint">@color/switch_track_setting</item>
+    </style>
+
+    <!--Delivery status button-->
+    <style name="Delivery_button">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/txt_white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+    <style name="whiteRatingBar">
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+</resources>

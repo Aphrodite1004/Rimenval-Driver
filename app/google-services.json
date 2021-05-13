@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "973614283619",
+    "firebase_url": "https://rimenval-66ae3-default-rtdb.firebaseio.com",
+    "project_id": "rimenval-66ae3",
+    "storage_bucket": "rimenval-66ae3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973614283619:android:351426006ead766be97156",
+        "android_client_info": {
+          "package_name": "driver.transporterimenval.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973614283619-eo66lqqjs4gv0rv4cqiav2r7068bbfgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBixJPCy726IiyaR4Qpzk8nhK-VKmSkd-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973614283619-eo66lqqjs4gv0rv4cqiav2r7068bbfgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973614283619:android:2b03df17f2963c4ae97156",
+        "android_client_info": {
+          "package_name": "store.transporterimenval.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973614283619-eo66lqqjs4gv0rv4cqiav2r7068bbfgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBixJPCy726IiyaR4Qpzk8nhK-VKmSkd-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973614283619-eo66lqqjs4gv0rv4cqiav2r7068bbfgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973614283619:android:cd470edaa0af31a3e97156",
+        "android_client_info": {
+          "package_name": "transporterimenval.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973614283619-eo66lqqjs4gv0rv4cqiav2r7068bbfgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBixJPCy726IiyaR4Qpzk8nhK-VKmSkd-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973614283619-eo66lqqjs4gv0rv4cqiav2r7068bbfgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

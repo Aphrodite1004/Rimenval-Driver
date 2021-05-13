@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_cell_delivery_order_detail.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\cell_delivery_order_detail.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\font_arial_rounded.TTF.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\font\\arial_rounded.TTF"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_btnn.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\setting_btnn.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_marker.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_marker.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_sidebar_share.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\sidebar_share.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_workreservation.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\item_workreservation.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery_order_history.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_delivery_order_history.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\font_arista2.ttf.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\font\\arista2.ttf"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery_order_detail.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_delivery_order_detail.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_back_black_24dp.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_as_delivery.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_login_as_delivery.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_timelapse_black_24dp.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_timelapse_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery_payment.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_delivery_payment.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_start_time_black_24dp.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_start_time_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_color_setting.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\color\\switch_color_setting.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notification_icon.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-mdpi\\ic_notification_icon.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_marker_active.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_marker_active.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_tracking.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_main_tracking.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_splash.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\splash.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_access_time_black_24dp.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_access_time_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_img_cus_request.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\img_cus_request.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_termcondition.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_termcondition.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\raw_faster_sound.mp3.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\raw\\faster_sound.mp3"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_call.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\btn_call.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_orderdelivered.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\img_orderdelivered.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_car_icon.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\car_icon.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_box_underline.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\text_box_underline.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_res_rejeact.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\img_res_rejeact.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_toobar.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\custom_toobar.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_box_underline_activated.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\text_box_underline_activated.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_orderprepare.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\img_orderprepare.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_img_orderprocess.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\img_orderprocess.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_aboutus.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\aboutus.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_img_orderpicked1.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\img_orderpicked1.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_markerorder.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\markerorder.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account_circle_black_24dp.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_account_circle_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_img_payment_completed.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\img_payment_completed.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_exit.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\anim\\exit.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ganancias.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\ganancias.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_myorder.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_myorder.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_searched_for_black_24dp.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_searched_for_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_checkout_btn.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\checkout_btn.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_pop_exit.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\anim\\pop_exit.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_img_orderpicked.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\img_orderpicked.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_horario.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\horario.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\font_arista2light.ttf.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\font\\arista2light.ttf"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_marker_inactive.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_marker_inactive.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_work_schedule.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\fragment_work_schedule.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_pop_enter.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\anim\\pop_enter.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_button_call_client.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\button_call_client.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_color.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\color\\switch_color.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_left.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_img_payment_pending.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\img_payment_pending.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_left.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery_user_profile.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_delivery_user_profile.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\font_arial.TTF.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\font\\arial.TTF"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_img_payment_defeated.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\img_payment_defeated.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_aboutus.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_aboutus.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_schedule.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\schedule.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_out.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_celldelivery.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\celldelivery.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_sidebar_terms.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\sidebar_terms.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_enter.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\anim\\enter.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery_status.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_delivery_status.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_in.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_pay.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\pay.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_track_setting.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\color\\switch_track_setting.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_track.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\color\\switch_track.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_work_reservation.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\fragment_work_reservation.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_header_category.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\header_category.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dialog.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_dialog.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_cell_earnings.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\cell_earnings.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_perfil.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\perfil.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation_menu.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notification_icon.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notification_icon.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_bubble_layout.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\bubble_layout.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_workschedule.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\item_workschedule.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_box_underline_selector.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\text_box_underline_selector.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_logout.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\logout.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_cell_payment.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\cell_payment.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notification_icon.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-xhdpi\\ic_notification_icon.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_map.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\btn_map.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery_work_time.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_delivery_work_time.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_descriptor.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\xml\\backup_descriptor.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_food_ratingbar_full_filled.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\food_ratingbar_full_filled.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_googlemapautocompletesearch.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_googlemapautocompletesearch.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_carreras.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\carreras.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_default_circle_img.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\default_circle_img.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notification_small.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable-hdpi\\ic_notification_small.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_bill.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\btn_bill.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fill_rate.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\fill_rate.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_menufragment.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\fragment_menufragment.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_sidebar_btn_bg.png.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-hdpi\\sidebar_btn_bg.png"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_end_time_black_24dp.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\drawable\\ic_end_time_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Dragon\\RimenvalDriver\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]

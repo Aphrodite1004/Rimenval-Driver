@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E5E5"
+    tools:context=".motorizado.DeliveryOrderHistory">
+
+    <RelativeLayout
+        android:id="@+id/rel_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbarheight"
+        android:background="@color/toolbarcolor">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:tint="@color/white"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/ib_back"
+            android:text="@string/txt_my_orders"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/toolbartitle"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_notification"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_title"
+        android:focusable="true">
+    </ListView>
+    <!--android:layout_above="@+id/adView"-->
+
+    <!--<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_id">
+    </com.google.android.gms.ads.AdView>-->
+
+</RelativeLayout>

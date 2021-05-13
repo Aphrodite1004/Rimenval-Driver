@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/workreservationCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="2dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <TextView
+            android:id="@+id/week_workreservation"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            android:text="Lunes"
+            android:gravity="center_vertical"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/date_workreservation"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="2020-5-4"
+            android:gravity="center_vertical"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/time_workreservation"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-1dp"
+            android:textSize="20dp"
+            android:text="Hora"
+            android:gravity="center_vertical"
+            android:textColor="#000000"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/worktime_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_access_time_black_24dp"
+            app:fabCustomSize="40dp"
+            android:tint="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/time_workreservation"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toStartOf="@+id/worktime_Button"
+            android:text="9:00 AM - 1:00 PM"
+            android:gravity="center_vertical"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+<!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:id="@+id/workreservationCardView"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="3dp"-->
+<!--    card_view:cardCornerRadius="5dp"-->
+<!--    card_view:cardElevation="5dp"-->
+<!--    card_view:contentPadding="2dp">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/week_workreservation"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:text="Monday"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#000000"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/date_workreservation"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layout_marginBottom="0dp"-->
+<!--                android:text="2020-5-4"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#000000"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_alignStart="@+id/time_workreservation"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_marginStart="0dp"-->
+<!--                android:layout_marginTop="-1dp"-->
+<!--                android:text="Work Time"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#000000"/>-->
+
+<!--            <com.nightonke.jellytogglebutton.JellyToggleButton-->
+<!--                android:id="@+id/worktime_ToggleButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginEnd="0dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                app:jtbColorChangeType="hsv"-->
+<!--                app:jtbEaseType="ease_out_back"-->
+<!--                app:jtbJelly="active_stiff_slim_jim"-->
+<!--                app:jtbLeftBackgroundColor="#333333"-->
+<!--                app:jtbLeftText="AM"-->
+<!--                app:jtbLeftTextColor="#ffffff"-->
+<!--                app:jtbLeftTextSize="12sp"-->
+<!--                app:jtbLeftThumbColor="@color/colorAccent"-->
+<!--                app:jtbRightBackgroundColor="#333333"-->
+<!--                app:jtbRightText="PM"-->
+<!--                app:jtbRightTextColor="#ffffff"-->
+
+<!--                app:jtbRightTextSize="12sp"-->
+<!--                app:jtbRightThumbColor="@color/colorAccent"-->
+<!--                app:jtbTextMarginBottom="2dp"-->
+<!--                app:jtbTextMarginCenter="8dp"-->
+<!--                app:jtbTextMarginLeft="4dp"-->
+<!--                app:jtbTextMarginRight="4dp"-->
+<!--                app:jtbTextMarginTop="2dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/time_workreservation"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_marginEnd="0dp"-->
+<!--                android:layout_marginBottom="0dp"-->
+<!--                android:layout_toStartOf="@+id/worktime_ToggleButton"-->
+<!--                android:text="9:00 AM - 1:00 PM"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:textColor="#000000"/>-->
+
+<!--        </RelativeLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->

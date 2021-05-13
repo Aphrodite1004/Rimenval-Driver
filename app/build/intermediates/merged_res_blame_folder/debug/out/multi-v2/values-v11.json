@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Dragon\\RimenvalDriver\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sunshine\\.gradle\\caches\\transforms-2\\files-2.1\\62d145d6e8b06290d3d752e5217da668\\jetified-core-0.9.6.0\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,1044",
+                        "endLines": "18,35",
+                        "endColumns": "10,10",
+                        "endOffsets": "1039,2010"
+                    },
+                    "to": {
+                        "startLines": "5,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "204,1193",
+                        "endLines": "21,38",
+                        "endColumns": "10,10",
+                        "endOffsets": "1188,2159"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sunshine\\.gradle\\caches\\transforms-2\\files-2.1\\657820b90d7139058647452dd4f83c4f\\jetified-niftydialogeffects-1.0.0\\res\\values-v11\\values.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "191",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "337"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "199"
+                    }
+                }
+            ]
+        }
+    ]
+}

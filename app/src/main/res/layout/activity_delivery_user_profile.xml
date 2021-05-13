@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".motorizado.DeliveryUserProfile">
+
+    <RelativeLayout
+        android:id="@+id/rel_header"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/toolbarheight"
+        android:background="@color/toolbarcolor">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:tint="@color/white"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:id="@+id/txt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/ib_back"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:text="Mi Perfil"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/toolbartitle"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rel_header"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rel_image"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/img12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="#90000000" />
+
+            <driver.transporterimenval.com.utils.RoundedImageView
+                android:id="@+id/img_user"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:background="@drawable/default_circle_img"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Nombres"
+        android:id="@+id/txt_name_tittle"
+        android:gravity="center"
+        android:textSize="@dimen/medium"
+        android:textColor="@color/lightGrey"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/txt_name"
+        android:gravity="center"
+        android:textSize="@dimen/medium"
+        android:textColor="@color/black"
+        tools:ignore="SpUsage" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0EFEF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Teléfono"
+            android:gravity="center"
+            android:id="@+id/txt_contact_tittle"
+
+            android:textSize="16dp"
+            android:textColor="@color/lightGrey"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/txt_contact"
+
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0EFEF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Email"
+            android:id="@+id/txt_email_tittle"
+
+            android:gravity="center"
+            android:textSize="@dimen/medium"
+            android:textColor="@color/lightGrey"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/txt_email"
+
+            android:gravity="center"
+            android:textSize="@dimen/medium"
+            android:textColor="@color/black"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0EFEF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Placa"
+            android:id="@+id/txt_vehicle_no_tittle"
+
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/lightGrey"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/txt_vehicle_no"
+            android:gravity="center"
+            android:textSize="@dimen/medium"
+            android:textColor="@color/black"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0EFEF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Vehículo"
+            android:id="@+id/txt_vehicle_type_tittle"
+            android:gravity="center"
+            android:textSize="@dimen/medium"
+            android:textColor="@color/lightGrey"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/txt_vehicle_type"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:textSize="@dimen/medium"
+            android:textColor="@color/black"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0EFEF" />
+
+</LinearLayout>

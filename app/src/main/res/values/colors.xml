@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorPrimary">#DF0101</color>
+    <color name="colorPrimaryDark">#DF0101</color>
+    <color name="colorAccent">#DF0101</color>
+
+    <color name="green">#000000</color>
+    <color name="orange">#DF0101</color>
+    <color name="toolbarcolor">#DF0101</color>
+    <color name="orderbg">#88898b</color>
+    <color name="colormark">#E76430</color>
+    <color name="res_green">#0dde00</color>
+    <color name="res_orange">#E76430</color>
+    <color name="light_grey">#C6CACD</color>
+    <color name="my_statusbar_color">#DF0101</color>
+    <color name="txt_orange">#DF0101</color>
+    <color name="txt_white">#FFFFFF</color>
+
+    <!--Main text color-->
+    <color name="darkGrey">#535252</color>
+    <color name="lightGrey">#747474</color>
+
+    <!--Levels Riders text color-->
+    <color name="oro">#DF0101</color>
+    <color name="platino">#7f7679</color>
+    <color name="diamante">#6b0091</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#f66666</color>
+    <color name="green2">#2abb9b</color>
+</resources>

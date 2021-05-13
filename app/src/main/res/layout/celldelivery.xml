@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:transitionName="@string/app_name">
+
+    <RelativeLayout
+        android:id="@+id/rel_main"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="#FFFF">
+
+        <driver.transporterimenval.com.utils.RoundedImageView
+            android:id="@+id/img_status"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/rel_middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/img_status">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_resName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:text="TIENDA"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/txt_orderTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:includeFontPadding="false"
+                    android:layout_marginEnd="8dp"
+                    android:layout_centerVertical="true"
+                    android:lines="1"
+                    android:text=""
+                    android:textColor="@color/colorAccent"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    tools:ignore="SpUsage" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_orderAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:gravity="center_vertical"
+                android:text="Monto de la Orden: $ 0,00"
+                android:textColor="@color/lightGrey"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/txt_deliveryAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cobro de Carrera: $ 0,00"
+                android:textColor="@color/lightGrey"
+                android:gravity="center"
+                android:textSize="12dp"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/txt_order_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/res_green"
+                android:gravity="center_vertical"
+                android:textSize="12dp"
+                android:maxLength="80"
+                android:maxLines="1"
+                tools:ignore="SpUsage" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
