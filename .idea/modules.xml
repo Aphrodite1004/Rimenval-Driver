@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RimenvalDriver.iml" filepath="$PROJECT_DIR$/.idea/modules/RimenvalDriver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RimenvalDriver.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RimenvalDriver.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rangetimepickerdialog/RimenvalDriver.rangetimepickerdialog.iml" filepath="$PROJECT_DIR$/.idea/modules/rangetimepickerdialog/RimenvalDriver.rangetimepickerdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Rimenval-Driver.iml" filepath="$PROJECT_DIR$/.idea/modules/Rimenval-Driver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Rimenval-Driver.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Rimenval-Driver.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rangetimepickerdialog/Rimenval-Driver.rangetimepickerdialog.iml" filepath="$PROJECT_DIR$/.idea/modules/rangetimepickerdialog/Rimenval-Driver.rangetimepickerdialog.iml" />
     </modules>
   </component>
 </project>
